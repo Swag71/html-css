@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sources</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Utilazada pelo fato de que o site será aberto em diferentes aparelho (celular,computador,tablet) </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/ft-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/ft-m.png" type="image/png">
+        <img src="img/ft-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Adicione aúdios</h1>
+    <p>Reproduza músicas no html</p>
+    <audio preload="metadata"controls loop>
+        <source src="midia/Oh Fire - Carmen María and Edu Espinal.mp3" type="audio/mpeg">
+        <p>Se a musica nao esta funcionando <a href download="midia/Oh Fire - Carmen María and Edu Espinal.mp3">faça o download</a></p>
+    </audio>
+    <h1>Adicione vídeos</h1>    
+    <p>Reproduza vídeo no seu site</p>
+    <video width="560" loop autoplay controls>
+        <source src="midia/Pexels-Feyza-Yıldırım-16042018 (1080P).mp4" type="video/mp4">
+        <p>Seu navegador não é compativel com <a href download="midia/Pexels-Feyza-Yıldırım-16042018 (1080P).mp4">o vídeo</a></p>
+    </video>
+    <h1>Vídeos incorporados do yt</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+
+</body>
+</html>
