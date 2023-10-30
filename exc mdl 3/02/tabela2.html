@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+            font-size: 7vh;
+        }
+        caption{
+            background-color: rgb(168, 164, 164);
+            font-size: 1.5em;
+            padding: 10px;
+            border-radius: 8px 8px 0px 0px;
+            font-weight: bold;
+        }
+        table{
+            width: 60vw;
+            height: 60vh;
+            border-collapse: collapse;
+            text-align: center;
+            margin: auto;
+            position: relative;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: lightgray;
+        }
+        td, th{ 
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th{
+            background-color: lightgrey;
+            
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: rgba(163, 208, 223, 0.575);
+        }
+        .resu{
+            background-color: rgba(221, 221, 101, 0.74)
+        }
+        .posi{
+            width: 20vh;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela G</title>
+</head>
+<body>
+    <h1>Tabela Grande</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+        <tr>
+            <th class="posi">Posição</th>
+            <th>Estado</th>
+            <th>População</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td>44 420 459</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>20 538 718</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>16 054 524</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 136 417	</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Total de habitantes</th>
+            <th class="resu">95 150 118</th>
+        </tfoot>
+    </table>
+</body>
+</html>
